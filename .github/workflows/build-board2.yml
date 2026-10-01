@@ -20,6 +20,7 @@ jobs:
 
       - name: Build board-2.bin
         run: |
+          cp ${{ github.workspace }}/bdwlan.bin ${{ github.workspace }}/qca-swiss-army-knife/tools/scripts/ath11k/
           cd qca-swiss-army-knife/tools/scripts/ath11k
           python3 ath11k-bdencoder -c ${{ github.workspace }}/board-2.json -o ${{ github.workspace }}/board-2.bin
 
