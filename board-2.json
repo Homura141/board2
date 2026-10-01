@@ -1,13 +1,13 @@
 [
   {
-    board [
+    "board": [
       {
-        names [
-          bus=ahb,qmi-chip-id=0,qmi-board-id=255,variant=Redmi-AX6
+        "names": [
+          "bus=ahb,qmi-chip-id=0,qmi-board-id=255,variant=Redmi-AX6"
         ],
-        data bdwlan.bin
+        "data": "bdwlan.bin"
       }
     ],
-    regdb []
+    "regdb": []
   }
 ]
